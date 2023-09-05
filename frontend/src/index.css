@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+body {
+  background: lightgrey;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+header {
+  background: white;
+}
+
+header .container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+.pages {
+  max-width: 1600px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.course-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.course-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+
+.course-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.course-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+.notes {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 1000px;
+  height: 300px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+button {
+  background: rgb(231, 231, 231);
+  border-radius: 4px;
+  width: max-content;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.search {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 10px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  background: white;
+  border-radius: 4px;
+  width: 32%;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.number {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.radio {
+  width: auto;
+}
